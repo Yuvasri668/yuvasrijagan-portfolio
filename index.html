@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yuvasri Jagan J | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #ffffff;
+      --text: #222;
+      --accent: #6a1b9a;
+    }
+    body.dark {
+      --bg: #1e1e1e;
+      --text: #eee;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      scroll-behavior: smooth;
+    }
+    nav {
+      background: var(--accent);
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav a, .toggle-btn {
+      color: white;
+      text-decoration: none;
+      margin-left: 15px;
+    }
+    .toggle-btn {
+      background: white;
+      color: var(--accent);
+      border: none;
+      padding: 6px 12px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    header {
+      background: var(--accent);
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 { font-size: 2.5rem; }
+    header p { font-size: 1.1rem; }
+    main {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+    aside, article {
+      padding: 20px;
+    }
+    aside {
+      flex: 1;
+      min-width: 280px;
+      background: #f4f4f4;
+      text-align: center;
+    }
+    article {
+      flex: 2;
+      min-width: 300px;
+    }
+    h2 { color: var(--accent); margin: 20px 0 10px; }
+    ul { list-style: none; padding-left: 0; }
+    ul li::before { content: '✔️ '; margin-right: 5px; }
+    a { color: var(--accent); }
+    .profile-pic {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 15px;
+      border: 3px solid var(--accent);
+    }
+    footer {
+      background: var(--accent);
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div><strong>Yuvasri Jagan J</strong></div>
+    <div>
+      <a href="C:\MRIT College\yuvasri portofile\Yuvasri's Resume.pdf" download class="toggle-btn">Download Resume</a>
+      <button class="toggle-btn" onclick="document.body.classList.toggle('dark')">Toggle Mode</button>
+    </div>
+  </nav>
+
+  <header>
+    <h1>Yuvasri Jagan J</h1>
+    <p>Software Engineering Graduate | Passionate about Innovation & Problem Solving</p>
+  </header>
+
+  <main>
+    <aside>
+      <!-- Profile Image -->
+      <img src="profile.jpg" alt="Yuvasri Jagan J" class="profile-pic">
+      
+      <h2>Contact</h2>
+      <p>📞 9448569696</p>
+      <p>✉️ <a href="mailto:yuvasrijagan0406@gmail.com">yuvasrijagan0406@gmail.com</a></p>
+      <p>🔗 <a href="https://www.linkedin.com/in/yuvasri-jagan-j-58b7372a5/" target="_blank" rel="noopener noreferrer">
+        linkedin.com/in/yuvasri-jagan-j-58b7372a5
+      </a></p>
+      
+      <h2>Technical Skills</h2>
+      <ul>
+        <li>Java Programming</li>
+        <li>Web Development (HTML, CSS)</li>
+        <li>C Programming</li>
+        <li>SQL</li>
+      </ul>
+      
+      <h2>Soft Skills</h2>
+      <ul>
+        <li>Adaptability</li>
+        <li>Team Management</li>
+      </ul>
+      
+      <h2>Languages</h2>
+      <p>English, Tamil, Kannada</p>
+      
+      <h2>Hobbies</h2>
+      <p>Movies, Travel</p>
+    </aside>
+
+    <article>
+      <h2>Career Objective</h2>
+      <p>Hardworking individual seeking a challenging position in Computer Science to showcase skills and contribute to organizational growth.</p>
+      
+      <h2>Education</h2>
+      <p><strong>Mysuru Royal Institute Of Technology, Mandya</strong><br>B.E. in CSE – CGPA: 8.31 (Till 5th Semester)</p>
+      <p><strong>JSS PU College For Women, Mysuru</strong><br>78% | June 2020 – Sept 2022</p>
+      <p><strong>Sri Vivekananda High School, Hanur</strong><br>82% | June 2019 – May 2020</p>
+      
+      <h2>Projects</h2>
+      <p><strong>Vehicle Booking Service</strong> – Spring Boot, Java, MySQL<br>
+         A platform to streamline vehicle maintenance and repair scheduling.</p>
+      <p><strong>Farmer Management System</strong> – HTML, CSS, JavaScript<br>
+         An online marketplace for farmers to sell their produce.</p>
+      
+      <h2>Certifications</h2>
+      <ul>
+        <li>Udemy: Become HTML HERO</li>
+        <li>Udemy: CSS Complete Course For Beginners</li>
+        <li>Udemy: Java Foundations - Mastering the Basics</li>
+        <li>1‑Day Workshop on Cyber Security</li>
+        <li>Participation Certificate: Quiznexus Challenge</li>
+      </ul>
+      
+    </article>
+  </main>
+
+  <footer>
+    &copy; 2025 Yuvasri Jagan J. All rights reserved.
+  </footer>
+</body>
+</html>
